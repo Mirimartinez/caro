@@ -133,7 +133,8 @@ h6 {
 }
 #topbar .contact-info i {
   font-style: normal;
-  color: var(--extra);
+  color: #fff;
+  font-weight: 600;
 }
 #topbar .contact-info i span {
   padding-left: 45px;
@@ -1569,4 +1570,22 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+.whatsapp {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  bottom: 5rem;
+  right: 15px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
 }
